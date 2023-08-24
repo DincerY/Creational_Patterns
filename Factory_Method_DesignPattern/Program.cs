@@ -67,6 +67,9 @@ Console.WriteLine("Hello, World!");
 
 #region Factory Method Yöntemi
 
+
+
+
 interface IBank
 {
 
@@ -129,7 +132,7 @@ class Creator
 {
     public enum ProductType
     {
-        Garanti,Teb,Is
+        Garanti, Teb, Is
     }
     public IBank Run(ProductType productType)
     {
